@@ -29,6 +29,7 @@ export default class App extends Component {
   render() {
     return (
       <View>
+      {/**Responsável por ter uma área de toque */}
         <TouchableOpacity style={estilo.botao} onPress={() => { this.onPress('+') }}>
           <Text style={estilo.descricao}>+</Text>
         </TouchableOpacity>
